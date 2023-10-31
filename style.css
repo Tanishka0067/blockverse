@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+.logo{
+    height: 74px;
+    width: 233px;
+
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.button1{
+    background: #1A579D;
+    border: none;
+    color: white;
+    height: 29px;
+    width: 89px;
+}
