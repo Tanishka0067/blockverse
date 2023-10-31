@@ -1,7 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    font-family: 'Inter', sans-serif; 
+    color: black;
+    text-decoration: none;
 }
 .logo{
     height: 74px;
@@ -13,11 +16,62 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin: 1rem 1.3rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: black;
+    font-weight: 400px;
+    line-height: 26.63px;
 }
 .button1{
     background: #1A579D;
     border: none;
     color: white;
-    height: 29px;
-    width: 89px;
+    height: 48px;
+    width: 149px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+hr{
+width: 95%;
+margin: auto;
+border: 1px solid black;
+}
+.text{
+    display: flex;
+    align-items: 'first baseline';
+gap: 8.9rem;
+}
+.introline{
+    width: 36.25rem;
+height: 9.5rem;
+    font-weight:500;
+    font-size: 3.75rem;
+    margin: 3rem;
+   
+}
+.description{
+margin: 3rem;
+width: 30.25rem;
+font-weight: 400;
+
+
+}
+.youtube{
+    display: flex;
+    align-items: center;
+        
 }
