@@ -85,10 +85,33 @@ font-size: 1.5rem;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom:2rem ;
 }
 .image{
     height: 18.8rem;
     width: 50rem;
+    margin: 1.5rem 2rem;
+   
+}
+.text-2{
+    font-size: 3.125rem;
+font-weight: 400;
+margin: 3rem;
+}
+.box{
+    border: 1px solid black;
+    width: 20rem;
+height: 12rem;
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(2,20rem);
+    gap: 1.5rem;
     margin: 2rem;
-    margin-right: 1.5rem;
+}
+.solution{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:'first baseline';
 }
