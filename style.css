@@ -54,6 +54,7 @@ border: 1px solid black;
     display: flex;
     align-items: 'first baseline';
 gap: 8.9rem;
+justify-content: space-around;
 }
 .introline{
     width: 36.25rem;
@@ -65,13 +66,29 @@ height: 9.5rem;
 }
 .description{
 margin: 3rem;
-width: 30.25rem;
+width: 49.25rem;
 font-weight: 400;
-
+justify-self:flex-end;
+font-size: 1.5rem;
 
 }
 .youtube{
     display: flex;
     align-items: center;
-        
+    font-weight: 400;
+    font-size: 1.7rem;
+   align-self: flex-end;
+   margin: 4rem;
+}
+.reference{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.image{
+    height: 18.8rem;
+    width: 50rem;
+    margin: 2rem;
+    margin-right: 1.5rem;
 }
