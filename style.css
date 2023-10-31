@@ -115,3 +115,24 @@ height: 12rem;
     justify-content: space-around;
     align-items:'first baseline';
 }
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 1rem;
+
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+.about{
+    font-weight: 400;
+    font-size: 1.25rem;
+    width: 16.4rem;
+height: 4.5rem;
+margin: 1rem;
+}
